@@ -5,7 +5,7 @@ rtl_433 (despite the name) is a generic data receiver, mainly for the 433.92 MHz
 The official source code is in the https://github.com/merbanan/rtl_433/ repository.
 
 It works with [RTL-SDR](https://github.com/osmocom/rtl-sdr/) and/or [SoapySDR](https://github.com/pothosware/SoapySDR/).
-Activly tested and supported are Realtek RTL2832 based DVB dongles (using RTL-SDR) and LimeSDR ([LimeSDR USB](https://www.crowdsupply.com/lime-micro/limesdr) and [LimeSDR mini](https://www.crowdsupply.com/lime-micro/limesdr-mini) engineering samples kindly provided by [MyriadRf](https://myriadrf.org/)), PlutoSDR, HackRF One (using SoapySDR drivers), as well as SoapyRemote.
+Actively tested and supported are Realtek RTL2832 based DVB dongles (using RTL-SDR) and LimeSDR ([LimeSDR USB](https://www.crowdsupply.com/lime-micro/limesdr) and [LimeSDR mini](https://www.crowdsupply.com/lime-micro/limesdr-mini) engineering samples kindly provided by [MyriadRf](https://myriadrf.org/)), PlutoSDR, HackRF One (using SoapySDR drivers), as well as SoapyRemote.
 
 ![rtl_433 screenshot](./screenshot.png)
 
@@ -42,7 +42,7 @@ Usage:		= General options =
   [-R <device> | help] Enable only the specified device decoding protocol (can be used multiple times)
        Specify a negative number to disable a device decoding protocol (can be used multiple times)
   [-G] Enable blacklisted device decoding protocols, for testing only.
-  [-X <spec> | help] Add a general purpose decoder (-R 0 to disable all other decoders)
+  [-X <spec> | help] Add a general purpose decoder (prepend -R 0 to disable all decoders)
   [-l <level>] Change detection level used to determine pulses [0-16384] (0 = auto) (default: 0)
   [-z <value>] Override short value in data decoder
   [-x <value>] Override long value in data decoder

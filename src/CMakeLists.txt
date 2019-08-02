@@ -116,6 +116,7 @@ add_executable(rtl_433
 	devices/smoke_gs558.c
 	devices/solight_te44.c
 	devices/springfield.c
+	devices/sqmremote.c
 	devices/steelmate.c
 	devices/tfa_30_3196.c
 	devices/tfa_pool_thermometer.c

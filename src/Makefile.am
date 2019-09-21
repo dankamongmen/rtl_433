@@ -54,6 +54,7 @@ rtl_433_SOURCES      = abuf.c \
                        devices/elv.c \
                        devices/emontx.c \
                        devices/esa.c \
+                       devices/esic_emt7110.c \
                        devices/esperanza_ews.c \
                        devices/eurochron.c \
                        devices/fineoffset.c \
@@ -67,9 +68,12 @@ rtl_433_SOURCES      = abuf.c \
                        devices/generic_motion.c \
                        devices/generic_remote.c \
                        devices/generic_temperature_sensor.c \
+                       devices/gt_tmbbq05.c \
                        devices/gt_wt_02.c \
+                       devices/gt_wt_03.c \
                        devices/hcs200.c \
                        devices/hideki.c \
+                       devices/holman_ws5029.c \
                        devices/hondaremote.c \
                        devices/honeywell.c \
                        devices/honeywell_wdb.c \
@@ -102,7 +106,8 @@ rtl_433_SOURCES      = abuf.c \
                        devices/oregon_scientific.c \
                        devices/oregon_scientific_sl109h.c \
                        devices/oregon_scientific_v1.c \
-                       devices/philips.c \
+                       devices/philips_aj3650.c \
+                       devices/philips_aj7010.c \
                        devices/prologue.c \
                        devices/proove.c \
                        devices/quhwa.c \
